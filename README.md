@@ -12,8 +12,9 @@ I would say enjoy, but I'm assuming the people who are reading my homework submi
 
 If you have any questions, you can reach me on email (aalmarz3@lion.lmu.edu) or slack (@abmarz)
 
+```
 ***THIS WORK IS THE PROPERTY OF ABDULLAH ALMARZOUQ (LMU STUDENT ID: 985553697) INTEDED FOR CMSI3801. ALL CREDITS, IF ANY, WILL BE PLACED IN THE FOOTNOTES. THIS REPOSITORY IS PUBLIC WITHOUT CHOICE AS I AM UNABLE TO MAKE IT PRIVATE (GITHUB DOOZYS), THEREFORE MAKING THE CONTENTS OF MY REPOSITORY PRONE TO PLAGIARISM BY OTHERS. PLEASE PLEASE PLEASE DO NOT TAKE ADVANTAGE OF MY GITHUB DOOZY AND PLAGIARIZE MY WORK. SHOULD YOU CHOOSE TO PLAGIARIZE, DO SO AT YOUR OWN PERIL BECAUSE IT CAN EASILY BE TRACED BACK WITH TIMESTAMPS**
-
+```
 
 ## Homework 1 Footnote
 Throughout this homework, some functions passed, some functions failed, some had a mixture of success and failure, and some would not work no matter how much I tried to troubleshoot --*insert sad face*--
