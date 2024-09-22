@@ -1,18 +1,20 @@
-# Plang 1 Homework Repository (Abdullah Al Marzouq)
+# Plang 1 Homework Repository
+# - Abdullah Al Marzouq
 
 Hear Ye! Hear Ye!
 
 Allow me to present unto thee mine humble collection of scholarly endeavors. Within this folder, thou shalt find the fruits of mine labor— okay I think that's enough to get your attention.
 
-Welcome to my submission folder/dropbox/repository (whichever you'd like to call it, I like to call it repository). In this reposirtory, you will find my homework submissions for the CMSI 3801 class at LMU. Kindly read the footnotes that will be updated in this README for each homework as they are important (at least for me). These footnotes serve as a space for my reflections/remarks that I wish to clarify to the instructor/grader(s) with each respective homework assignment, as well as a place to give credits (if any). Some footnotes are numbered and commented next to their respective line of code for your reference. They look like this: (HWF ...)
+Welcome to my submission folder/dropbox/repository (whichever you'd like to call it, I like to call it repository). In this reposirtory, you will find my homework submissions for the CMSI 3801 class at LMU. Kindly read the footnotes that will be updated in this README for each homework as they are important (at least for me). These footnotes serve as a space for my reflections/remarks that I wish to clarify to the instructor/grader(s) with each respective homework assignment, as well as a place to give credits (if any). Some footnotes are numbered and commented next to their respective line of code for your reference. They look like this: (HWF ...). Footnotes will be updated after each homework cycle, placing the latest ones at the top of this README and old ones  at the very bottom for archivial purposes.
 
 My hope is that my work can stand on its merits to serve as a testament to the earnest pursuit of understanding that I am embarking on for this course.
 
-I would say enjoy, but I'm assuming the people who are reading my homework submissions are doing so by necessity and may not view it as an enjoyable task. But if you do enjoy doing so ... go crazy!
-
-*THIS WORK IS THE PROPERTY OF ABDULLAH ALMARZOUQ (LMU STUDENT ID: 985553697) INTEDED FOR CMSI3801. ALL CREDITS, IF ANY, WILL BE PLACED IN THE FOOTNOTES. THIS REPOSITORY IS PUBLIC WITHOUT CHOICE AS I AM UNABLE TO MAKE IT PRIVATE (GITHUB DOOZYS), THEREFORE MAKING THE CONTENTS OF MY REPOSITORY PRONE TO PLAGIARISM BY OTHERS. PLEASE PLEASE PLEASE DO NOT TAKE ADVANTAGE OF MY GITHUB DOOZY AND PLAGIARIZE MY WORK. SHOULD YOU CHOOSE TO PLAGIARIZE, DO SO AT YOUR OWN PERIL BECAUSE IT CAN EASILY BE TRACED BACK WITH TIMESTAMPS*
+I would say enjoy, but I'm assuming the people who are reading my homework submissions are doing so by necessity and may not view it as an enjoyable task. But if you do enjoy doing so... go crazy :P
 
 If you have any questions, you can reach me on email (aalmarz3@lion.lmu.edu) or slack (@abmarz)
+
+<*THIS WORK IS THE PROPERTY OF ABDULLAH ALMARZOUQ (LMU STUDENT ID: 985553697) INTEDED FOR CMSI3801. ALL CREDITS, IF ANY, WILL BE PLACED IN THE FOOTNOTES. THIS REPOSITORY IS PUBLIC WITHOUT CHOICE AS I AM UNABLE TO MAKE IT PRIVATE (GITHUB DOOZYS), THEREFORE MAKING THE CONTENTS OF MY REPOSITORY PRONE TO PLAGIARISM BY OTHERS. PLEASE PLEASE PLEASE DO NOT TAKE ADVANTAGE OF MY GITHUB DOOZY AND PLAGIARIZE MY WORK. SHOULD YOU CHOOSE TO PLAGIARIZE, DO SO AT YOUR OWN PERIL BECAUSE IT CAN EASILY BE TRACED BACK WITH TIMESTAMPS*>
+
 
 ## Homework 1 Footnote
 Throughout this homework, some functions passed, some functions failed, some had a mixture of success and failure, and some would not work no matter how much I tried to troubleshoot --*insert sad face*--
