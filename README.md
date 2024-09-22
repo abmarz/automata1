@@ -1,4 +1,4 @@
-# Plang 1 \n Homework Repository \n - Abdullah Al Marzouq
+# Plang 1 \nHomework Repository \n- Abdullah Al Marzouq
 
 Hear Ye! Hear Ye!
 
