@@ -1,4 +1,4 @@
-# Plang 1 || Homework Repository || Abdullah Al Marzouq
+# Plang 1 - Homework Repository - Abdullah Al Marzouq
 
 Hear Ye! Hear Ye!
 
@@ -17,7 +17,7 @@ THIS WORK IS THE PROPERTY OF ABDULLAH ALMARZOUQ (LMU STUDENT ID: 985553697) INTE
 ```
 
 ## Homework 1 Footnote
-Throughout this homework, some functions passed, some functions failed, some had a mixture of success and failure, and some would not work no matter how much I tried to troubleshoot --*insert sad face*--
+Throughout this homework, some functions passed, some functions failed, some had a mixture of success and failure, and some would not work no matter how much I tried to troubleshoot 😢 
 
 In the spirit of academic integrity, I must give credit to any help I have received on this assignment. There have been a pool of people, and robots, that helped me understand and write some lines of code. Help was received by fellow peers from the keck lab, a supplemental tutor that helped me understand core concepts for each question, and copilot on VScode. All credits to the aforementioned havee been placed throughout the codes in their respective areas of help.
 
