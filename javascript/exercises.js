@@ -15,12 +15,54 @@ export function change(amount) {
   return counts
 }
 
-// Write your first then lower case function here
+// // // ANSWERS START HERE // // //
 
-// Write your powers generator here
+// first then lower case function:                             // HWF(**)
+export function firstThenLowerCase(strings, predicate) {
+  const first = strings.find(predicate)
+  return first?.toLowerCase()
+}
 
-// Write your say function here
+// powers generator function:
+export function * powersGenerator({base, limit}) {
+  let exponent = 0;
+  while (true) {
+    let power = Math.pow(base, exponent);
+    if (power > limit) break;
+    yield power;
+    exponent++;
+  }
+}
 
-// Write your line count function here
+// say function:
+export function say(){
+  const words = [];
+  return function(arg){
+    if (arg) {
+      words.push(arg);
+      return say();
+    } else {
+      return words.join(' ');
+    }
+  };
+}
 
-// Write your Quaternion class here
+// meaningful line count function:                               // HWF(1.3)
+const fs = require('fs').promises;                               // Node.js file system module
+export async function meaningfulLineCount(filename) {
+  try {
+    const data = await fs.readFile(filename, 'utf8');            // Decode the file as a UTF-8 string
+    const lines = data.split('\n');                              // Split the data into lines
+    const meaningfulLines = lines.filter(line => {               // Filter out the lines that are empty or start with a '#'
+      const trimmed = line.trim();                               // Remove whitespace
+      return trimmed !== '' && !trimmed.startsWith('#');
+    });
+    return meaningfulLines.length;
+  } 
+  catch (error) {
+    throw new Error('Error reading file: ${error.message}');
+  }
+}
+
+// Quaternion class function:
+// HWF(NA)
