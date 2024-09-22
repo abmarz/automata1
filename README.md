@@ -1,28 +1,36 @@
-# Homework Template for CMSI 3801
+# Plang 1 Homework Repo
 
-Welcome!
+Hear Ye! Hear Ye!
 
-## Instructions
+Allow me to present unto thee mine humble collection of scholarly endeavors. Within this folder, thou shalt find the fruits of mine labor— okay I think that's enough to get your attention.
 
-Fork this repo for your homework submissions. Make sure your fork has a nice, descriptive name. Leaving the name as “lmu-cmsi-3801-template” is misleading, and keeping it indicates you are not taking sufficient pride in your work. After forking, **please replace the contents of this readme** file with information about your submissions, including the name(s) of the students, and a description of each assignment (as they are turned in).
+Welcome to my submission folder/dropbox/repository (whichever you'd like to call it, I like to call it repository). In this reposirtory, you will find my homework submissions for the CMSI 3801 class at LMU. Kindly read the footnotes that will be updated in this README for each homework as they are important (at least for me). These footnotes serve as a space for my reflections/remarks that I wish to clarify to the instructor/grader(s) with each respective homework assignment, as well as a place to give credits (if any). Some footnotes are numbered and commented next to their respective line of code for your reference. They look like this: (HWF ...)
 
-Don’t bother with notes to the graders. Such notes go into your BrightSpace submissions, not your GitHub repository.
+My hope is that my work can stand on its merits to serve as a testament to the earnest pursuit of understanding that I am embarking on for this course.
 
-Your homework submissions will consist of programs in the following languages. To keep things simple, there is a separate folder for each language.
+I would say enjoy, but I'm assuming the people who are reading my homework submissions are doing so by necessity and may not view it as an enjoyable task. But if you do enjoy doing so ... go crazy!
 
-- **Homework 1 (Scripting)**: Lua, Python, JavaScript
-- **Homework 2 (Enterprise)**: Java, Kotlin, Swift
-- **Homework 3 (Theory)**: TypeScript, OCaml, Haskell
-- **Homework 4 (Systems)**: C, C++, Rust
-- **Homework 5 (Concurrency)**: Go
+*THIS WORK IS THE PROPERTY OF ABDULLAH ALMARZOUQ (LMU STUDENT ID: 985553697) INTEDED FOR CMSI3801. ALL CREDITS, IF ANY, WILL BE PLACED IN THE FOOTNOTES. THIS REPOSITORY IS PUBLIC WITHOUT CHOICE AS I AM UNABLE TO MAKE IT PRIVATE (GITHUB DOOZYS), THEREFORE MAKING THE CONTENTS OF MY REPOSITORY PRONE TO PLAGIARISM BY OTHERS. PLEASE PLEASE PLEASE DO NOT TAKE ADVANTAGE OF MY GITHUB DOOZY AND PLAGIARIZE MY WORK. SHOULD YOU CHOOSE TO PLAGIARIZE, DO SO AT YOUR OWN PERIL BECAUSE IT CAN EASILY BE TRACED BACK WITH TIMESTAMPS*
 
-At each homework deadline, the graders will clone your repo and run the tests. I will be inspecting the source code, grading your work on style, clarity, and appropriate use of language idioms. Do not throw away points in these areas: **use code formatters and linters**. Please consider it a moral obligation to use these tools. Not doing so is a violation of professional ethics. _You must respect the naming, capitalization, formatting, spacing, and indentation conventions of each language_.
+If you have any questions, you can reach me on email (aalmarz3@lion.lmu.edu) or slack (@abmarz)
+
+## Homework 1 Footnote
+Throughout this homework, some functions passed, some functions failed, some had a mixture of success and failure, and some would not work no matter how much I tried to troubleshoot --*insert sad face*--
+
+In the spirit of academic integrity, I must give credit to any help I have received on this assignment. There have been a pool of people, and robots, that helped me understand and write some lines of code. Help was received by fellow peers from the keck lab, a supplemental tutor that helped me understand core concepts for each question, and copilot on VScode. All credits to the aforementioned havee been placed throughout the codes in their respective areas of help.
+
+*Please note that the use of copilot here was purely for aid within an already established line of code, and never for writing the entire code from scratch. On my honor, the use of copilot here was in compliance with the syllabus rules and regulations for AI under the 'Generative AI and Your Learning' section. (https://cs.lmu.edu/~ray/classes/pl/syllabus/)
+
+HWF Legend:
+- NA: Couldn't write
+- **: Taken from Homework 1 Helper on class brightspace (https://brightspace.lmu.edu/d2l/le/content/253524/viewContent/3229379/View)
+- 1.1: Aid from copilot was used here to help remove the whitespace
+- 1.2: Aid from copilot was used here to perfect the punctuation and clarify what should be passed in.
+- 1.3: Aid from copilot was used here to find a Node.js system module that helps with the function. Comments added for clarification.
+- 1.4: Peers from the Keck Lab helped with this as well as a tutor who taught me supplemental information on dataclasses 
+- 1.5: Aid from copilot was used here to auto-populate the functions; then checked and corrected by me.
 
 ## The Test Suites
-
-The test files are included in the repo already. They are available for YOU! They will help you not only learn the languages and concepts covered in this course, but to help you with professional practice. You should get accustomed to writing code to make tests pass. As you grow in your profession, you will get used to writing your tests early.
-
-The test suites are run like so (assuming you have a Unix-like shell, modify as necessary if you have Windows):
 
 ### Lua
 
@@ -102,7 +110,7 @@ cargo test
 go run restaurant.go
 ```
 
-## Grading Notes
+## Grading Notes (by instructor)
 
 Your grade is a reflection not only of your ability to write code to pass existing tests, but also of your ability to construct software in a professional setting. Therefore, the following will contribute rather heavily to your score:
 
