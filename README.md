@@ -25,11 +25,11 @@ In the spirit of academic integrity, I must give credit to any help I have recei
 
 HWF Legend:
 - **: Taken from Homework 2 Helper on class brightspace (https://brightspace.lmu.edu/d2l/le/content/253524/viewContent/3249535/View)
-- 1.1: Aid from tutors used here for help with Quaternion concepts in this language
-- 1.2: Peers from the Keck Lab helped with this as well as a tutor who taught me supplemental information on dataclasses for the language 
-- 1.3: Aid from tutors used here for help with constructing a Binary Search Tree in this language
-- 1.4: Aid from copilot was used here to auto-populate the functions; then checked and corrected by me
-- 1.5: Aid from tutors used here for help with constructing a Binary Search Tree in this language
+- 1.1: Aid from tutors used here for help with Quaternion concepts in this language.
+- 1.2: Peers from the Keck Lab helped with this as well as a tutor who taught me supplemental information on dataclasses for the language. 
+- 1.3: Aid from tutors used here for help with constructing a Binary Search Tree in this language.
+- 1.4: Aid from copilot was used here to auto-populate the functions; then checked and corrected by me.
+- 1.5: Aid from tutors used here for help with constructing a Binary Search Tree in this language.
 
 ## The Test Suites
 
