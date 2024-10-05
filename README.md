@@ -120,7 +120,7 @@ Your grade is a reflection not only of your ability to write code to pass existi
 - **Adherence to naming and formatting conventions for the language you are writing in**. Inconsistent indentation, for example, has no place in professional or student software. Neither does end-of-line whitespace, huge chunks of contiguous blank lines, and other types of messy coding practices that show friends, family, colleagues, and potential employers that you don’t care about your work.
 - (As always) The **readability and maintainability** of your code.
 
-## Homework Footnotes
+## Past Homework Footnotes
 ### Homework 1 Footnote
 Throughout this homework, some functions passed, some functions failed, some had a mixture of success and failure, and some would not work no matter how much I tried to troubleshoot 😢 
 
