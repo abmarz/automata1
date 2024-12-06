@@ -12,7 +12,7 @@ let change amount =
     in
     aux amount denominations
 
-(* First then apply function done with Homework Helper 3 *)
+(* First Then apply function done with Homework Helper 3 *)
 let first_then_apply array predicate customer =
   match List.find_opt predicate array with
   | None -> None

@@ -59,7 +59,7 @@ fixture =
     , ( "number tree inoder empty", inorder (Empty::BST Int) == [])
     , ( "number tree inorder", inorder tree_52381 == [1, 2, 3, 5, 8])
     ]
-    -- Uncomment the following as needed as you implement your tests
+    -- Uncomment the following as needed as you implement your test
     where
         lower = unpack . toLower . pack
         lengthOverThree = (> 3) . length

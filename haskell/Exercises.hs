@@ -32,7 +32,7 @@ change amount
                 (count, newRemaining) = remaining `divMod` d
                 newCounts = Map.insert d count counts
 
--- First then apply function 
+-- First then apply function:
 firstThenApply :: [a] -> (a -> Bool) -> (a -> b) -> Maybe b
 firstThenApply xs pred f = f <$> find pred xs
 
