@@ -12,9 +12,15 @@ If you have any questions, you can reach me on email 📧 (aalmarz3@lion.lmu.edu
 THIS WORK IS THE PROPERTY OF ABDULLAH ALMARZOUQ (LMU STUDENT ID: 985553697) INTEDED FOR CMSI3801. ALL CREDITS, IF ANY, WILL BE PLACED IN THE FOOTNOTES. THIS REPOSITORY IS PUBLIC WITHOUT CHOICE AS I AM UNABLE TO MAKE IT PRIVATE (GITHUB DOOZYS), THEREFORE MAKING THE CONTENTS OF MY REPOSITORY PRONE TO PLAGIARISM BY OTHERS. PLEASE DO NOT TAKE ADVANTAGE OF MY GITHUB PUBLIC STATUS AND PLAGIARIZE MY WORK. SHOULD YOU CHOOSE TO PLAGIARIZE, DO SO AT YOUR OWN PERIL BECAUSE IT CAN EASILY BE TRACED BACK WITH TIMESTAMPS
 ```
 
-## Homework 3 Footnote
-Not much to say here. Dr. Toal helped out with pretty much half of this homework with the Homework Helper 3 video and in office, and it was smooth sailing  from there. Thank you Dr. Toal. I should say though that I am skipping the footnote legend in this footnote for the sake of not overcommenting as Dr. Toal mentioned in class. Instead I have chosen to minimize references to one line each function, placed within. Credits given in the comments too!
+## Homework 4 & 5 Footnote
+Homework 4 was done with Ali Al Aryan and submitted on his repository: 
+```
+https://github.com/alialaryan/Ali.A-lmu-cmsi-3801-template.git
+```
 
+Homework 5 finally! This was also done with Ali Al Aryan but it's my repo this time hehe. This was actually very fun. We worked on this together with lots and lots of help from Dr. Toal and Jazzy (@jazzyfresh). As always, comments are next to each line where they should be, giving credit where it is due 🫡🫡🫡
+So that's it huh? The end of our homework journey together (is anyone reading these anyway?) It's a bittersweet moment, more sweet than bitter, but hopefully our joint efforts give us at least < %80 in this class, we need it! Thank you once again for your *extremely* valuable time and feedback.
+All love. 🫶🫶🫶
 
 ## The Test Suites
 
@@ -136,3 +142,6 @@ HWF Legend:
 - 1.3: Aid from tutors used here for help with constructing a Binary Search Tree in this language.
 - 1.4: Aid from copilot was used here to auto-populate the functions; then checked and corrected by me.
 - 1.5: Aid from tutors used here for help with constructing a Binary Search Tree in this language.
+
+### Homework 3 Footnote
+Not much to say here. Dr. Toal helped out with pretty much half of this homework with the Homework Helper 3 video and in office, and it was smooth sailing  from there. Thank you Dr. Toal. I should say though that I am skipping the footnote legend in this footnote for the sake of not overcommenting as Dr. Toal mentioned in class. Instead I have chosen to minimize references to one line each function, placed within. Credits given in the comments too!
