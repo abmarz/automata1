@@ -1,12 +1,13 @@
 module Exercises
     ( change,
-      -- put the proper exports here
+      firstThenApply
     ) where
 
 import qualified Data.Map as Map
 import Data.Text (pack, unpack, replace)
 import Data.List(isPrefixOf, find)
 import Data.Char(isSpace)
+import Control.Arrow (Arrow(first))
 
 change :: Integer -> Either String (Map.Map Integer Integer)
 change amount
@@ -20,7 +21,9 @@ change amount
                 (count, newRemaining) = remaining `divMod` d
                 newCounts = Map.insert d count counts
 
--- Write your first then apply function here
+-- Write your first then apply function here *Write f.map function*
+-- firstThenApply :: [a] -> (a -> Bool) -> (a -> b) -> Maybe b
+-- firstThenApply xs pred f = find pred xs >>= Just . f *Write f.map function*
 
 -- Write your infinite powers generator here
 
