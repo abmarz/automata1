@@ -1,4 +1,3 @@
-import { open } from "node:fs/promises"
 
 export function change(amount: bigint): Map<bigint, bigint> {
   if (amount < 0) {
@@ -13,7 +12,7 @@ export function change(amount: bigint): Map<bigint, bigint> {
   return counts
 }
 
-// Write your first then apply function here HWF**
+// First then apply function (Completed with the help of Dr. Toal)
 export function firstThenApply<T, U>(
   items: T[],
   predicate: (item: T) => boolean,
@@ -27,16 +26,26 @@ export function firstThenApply<T, U>(
   return undefined
 }
 
-// Write your powers generator here HWF**
+// Powers generator function (Completed with the help of Dr. Toal)
+
 export function* powersGenerator(base: bigint): Generator<bigint> {
   for (let power = 1n; ; power *= base) {
     yield power
   }
 }
 
-// Write your line count function here  **Translate from java
+// Line count function  (Completed with the help of built-in AI tools)
+export function meaningfulLineCount(code: string): number {
+  let count = 0
+  for (const line of code.split("\n")) {
+    if (line.trim() !== "" && !line.startsWith("//")) {
+      count++
+    }
+  }
+  return count
+}
 
-// Write your shape type and associated functions here HWF(1.1)
+// Shape type and associated functions (Completed with the help of Dr. Toal)
 interface Sphere {
   kind: "Sphere"
   radius: number
@@ -69,28 +78,81 @@ export function volume(shape: Shape): number {
   }
 }
 
-// Write your binary search tree implementation here
-// export interface BinarySearchTree<T> {
-//   size(): number
-//   insert(value: T): BinarySearchTree<T>
-//   contains(value: T): boolean
-//   inorder(): T[]
-// }
+// Binary Search Tree (Completed with the help of built-in AI tools)
+export interface BinarySearchTree<T> {
+  size(): number;
+  insert(value: T): BinarySearchTree<T>;
+  contains(value: T): boolean;
+  inorder(): T[];
+  toString(): string;
+}
 
-// class Empty<T> implements BinarySearchTree<T> {
-//   size(): number {
-//     return 0
-//   }
+export class Empty<T> implements BinarySearchTree<T> {
+  size(): number {
+    return 0;
+  }
 
-//   insert(value: T): BinarySearchTree<T> {
-//     return new Node(value, new Empty(), new Empty())
-//   }
+  insert(value: T): BinarySearchTree<T> {
+    return new Node(value, new Empty(), new Empty());
+  }
 
-//   contains(value: T): boolean {
-//     return false
-//   }
+  contains(value: T): boolean {
+    return false;
+  }
 
-//   inorder(): T[] {
-//     return []
-//   }
-// }
+  inorder(): T[] {
+    return [];
+  }
+
+  toString(): string {
+    return "";
+  }
+}
+
+class Node<T> implements BinarySearchTree<T> {
+  value: T;
+  left: BinarySearchTree<T>;
+  right: BinarySearchTree<T>;
+
+  constructor(value: T, left: BinarySearchTree<T>, right: BinarySearchTree<T>) {
+    this.value = value;
+    this.left = left;
+    this.right = right;
+  }
+
+  size(): number {
+    return 1 + this.left.size() + this.right.size();
+  }
+
+  insert(value: T): BinarySearchTree<T> {
+    if (value < this.value) {
+      return new Node(this.value, this.left.insert(value), this.right);
+    } else if (value > this.value) {
+      return new Node(this.value, this.left, this.right.insert(value));
+    } else {
+      return this;
+    }
+  }
+
+  contains(value: T): boolean {
+    if (value === this.value) {
+      return true;
+    } else if (value < this.value) {
+      return this.left.contains(value);
+    } else {
+      return this.right.contains(value);
+    }
+  }
+
+  inorder(): T[] {
+    return [...this.left.inorder(), this.value, ...this.right.inorder()];
+  }
+
+  toString(): string {
+    const leftString = this.left.toString();
+    const rightString = this.right.toString();
+    const leftPart = leftString ? leftString : "";
+    const rightPart = rightString ? rightString : "";
+    return `(${leftPart}${this.value}${rightPart})`;
+  }
+}
