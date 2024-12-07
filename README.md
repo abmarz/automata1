@@ -1,3 +1,6 @@
+# Final Message (December 6, 2024)
+Can't even begin to fathom it's been 16 weeks already. I can speak for all my classmates when I say this class has definetly challenged us to shell out the better programmers inside us, and without the guidance of Dr. Toal, we'd all be lost (no joke). As of this message, all my assignments have been submitted with  only  the final exam left. I'd like to acknowledge Dr. Toal for being very understanding and flexible with the homeworks and not only allowing us more time without penalty, but also helping us solve the more tougher problems. Dr. Toal if you're reading this I hope you know that we all appreciate you and recognize that your flexibility is our privilege and not our right, and I hope you know that we all love and respect you very much. I can't speak for the class on this one but I can say that this grace has helped me both take the proper time to understand the material (otherwise being rushed and not learning) and tackle the learning curve that we might encounter with higher-level classes like this. I hope my work reflects my learning in this class in the best way possible (and maybe even get me an A? Jk Jk.... unless?). Thank  you once again  Dr. Toal, enjoy your winter break, see you in the spring! (and you too Nat! if you're reading this...)
+
 # Plang 1 - Homework Repository - Abdullah Al Marzouq
 
 Welcome to my submission folder/dropbox/repository (whichever you'd like to call it, I like to call it repository). In this repository, you will find my homework submissions for the CMSI 3801 class at LMU. Kindly read the footnotes that will be updated in this README for each homework as they are important (at least for me). ❗️ These footnotes serve as a space for my reflections/remarks that I wish to clarify to the instructor/grader(s) with each respective homework assignment, as well as a place to give credits (if any). Some footnotes are numbered and commented next to their respective line of code for your reference. They look like this: (HWF ...). Footnotes will be updated after each homework cycle, placing the latest ones at the top of this README and old ones at the very bottom for archival purposes. 📑🔍
@@ -135,13 +138,6 @@ In the spirit of academic integrity, I must give credit to any help I have recei
 
 *Please note that the use of copilot here was purely for aid within an already established line of code, and never for writing the entire code from scratch. On my honor, the use of copilot here was in compliance with the syllabus rules and regulations for AI under the 'Generative AI and Your Learning' section. (https://cs.lmu.edu/~ray/classes/pl/syllabus/)
 
-HWF Legend:
-- **: Taken from Homework 2 Helper on class brightspace (https://brightspace.lmu.edu/d2l/le/content/253524/viewContent/3249535/View)
-- 1.1: Aid from tutors used here for help with Quaternion concepts in this language.
-- 1.2: Peers from the Keck Lab helped with this as well as a tutor who taught me supplemental information on dataclasses for the language. 
-- 1.3: Aid from tutors used here for help with constructing a Binary Search Tree in this language.
-- 1.4: Aid from copilot was used here to auto-populate the functions; then checked and corrected by me.
-- 1.5: Aid from tutors used here for help with constructing a Binary Search Tree in this language.
 
 ### Homework 3 Footnote
 Not much to say here. Dr. Toal helped out with pretty much half of this homework with the Homework Helper 3 video and in office, and it was smooth sailing  from there. Thank you Dr. Toal. I should say though that I am skipping the footnote legend in this footnote for the sake of not overcommenting as Dr. Toal mentioned in class. Instead I have chosen to minimize references to one line each function, placed within. Credits given in the comments too!
