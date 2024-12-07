@@ -1,11 +1,11 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.function.Predicate;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 
 public class Exercises {
     static Map<Integer, Long> change(long amount) {
@@ -20,7 +20,7 @@ public class Exercises {
         return counts;
     }
 
-    // Write your first then lower case function here (HWF **)
+    // First then lower case function (help from built-in AI tools)
     public static  Optional <String> firstThenLowerCase(List<String> strings, Predicate <String> predicate) {
         return strings.stream()
             .filter(predicate)
@@ -28,78 +28,125 @@ public class Exercises {
             .map(String::toLowerCase);
     }
 
-    // Write your say function here !!
+    // Say function (help from Homework Helper 2)
+    static record Sayer(String phrase) {
+        Sayer and(String word) {
+            return new Sayer(phrase +' '+ word);
+        }
+    }
+    static Sayer say() {
+        return new Sayer("");
+    }
+    static Sayer say(String word) {
+        return new Sayer(word);
+    }
 
-
-    // Write your line count function here !!
+    // Line count function (help from Dr. Toal in office)
+    static long meaningfulLineCount(String filename) throws IOException {
+        try (var reader = new BufferedReader(new FileReader(filename))) {
+             return reader.lines()
+                .map(String::trim)
+                .filter(line -> !line.isBlank() && !line.startsWith("#"))
+                .count();
+        }
+    }
     
 }
 
-// Write your Quaternion record class here !!
+// Quaternion record class (help from Homework Helper 2)
+record Quaternion(double a, double b, double c, double d) {
+
+    public final static Quaternion ZERO = new Quaternion(0, 0, 0, 0);
+    public final static Quaternion I = new Quaternion(0, 1, 0, 0);
+    public final static Quaternion J = new Quaternion(0, 0, 1, 0);
+    public final static Quaternion K = new Quaternion(0, 0, 0, 1);
+
+   Quaternion plus(Quaternion other) {
+        return new Quaternion(a + other.a, b + other.b, c + other.c, d + other.d);
+    }
+
+    Quaternion times(Quaternion other){
+        return new Quaternion(
+            a * other.a - b * other.b - c * other.c - d * other.d,
+            a * other.b + b * other.a + c * other.d - d * other.c,
+            a * other.c - b * other.d + c * other.a + d * other.b,
+            a * other.d + b * other.c - c * other.b + d * other.a);
+    }
+
+    public Quaternion conjugate() {
+        return new Quaternion(a, -b, -c, -d);
+    }
+
+    public List<Double> coefficients() {
+        return List.of(a, b, c, d);
+    }
+
+    @Override
+
+    public String toString() {
+        var sb = new StringBuilder();
+        if (a != 0) sb.append(a);
+        if (b != 0) sb.append(b > 0 ? "+" + b + "i" : b + "i");
+        if (c != 0) sb.append(c > 0 ? "+" + c + "j" : c + "j");
+        if (d != 0) sb.append(d > 0 ? "+" + d + "k" : d + "k");
+        return sb.toString();
+    }
+}
 
 
-// Write your BinarySearchTree sealed interface and its implementations here (HWF **)
+// BinarySearchTree sealed interface and its implementations (from Homework Helper 2)
 sealed interface BinarySearchTree permits Empty, Node {
     int size();
-    boolean contains(String value);
-    BinarySearchTree insert(String value);
+    BinarySearchTree insert(String data);
+    boolean contains(String data);
 }
 
 final record Empty() implements BinarySearchTree {
-    @Override
-    public int size() {
+    @Override public int size() {
         return 0;
     }
 
-    @Override
-    public boolean contains(String value) {
+    @Override public BinarySearchTree insert(String data) {
+        return new Node(data, this, this);
+    }
+
+    @Override public boolean contains(String data) {
         return false;
     }
 
-    @Override
-    public BinarySearchTree insert(String value) {
-        return new Node(value, this, this);
-    }
-
-    @Override
-    public String toString() {
+    @Override public String toString() {
         return "()";
     }
-
 }
 
-final class Node implements BinarySearchTree {
-    private final String value;
-    private final BinarySearchTree left;
-    private final BinarySearchTree right;
-
-    Node(String value, BinarySearchTree left, BinarySearchTree right) {
-        this.value = value;
-        this.left = left;
-        this.right = right;
+final record Node (
+        String data, BinarySearchTree left, BinarySearchTree right)
+        implements BinarySearchTree {
+    @Override public int size() {
+        return left.size() + right.size() + 1;
     }
 
-    @Override
-    public int size() {
-        return 1 + left.size() + right.size();
-    }
-
-    @Override
-    public boolean contains(String value) {
-        return this.value.equals(value) || left.contains(value) || right.contains(value);
-    }
-
-    @Override
-    public BinarySearchTree insert(String value) {
-        if (value.compareTo(this.value) < 0) {
-            return new Node(this.value, left.insert(value), right);
+    @Override public BinarySearchTree insert(String data) {
+        if (data.compareTo(this.data) < 0) {
+            return new Node(this.data, left.insert(data), right);
+        } else if (data.compareTo(this.data) > 0) {
+            return new Node(this.data, left, right.insert(data));
         } else {
-            return new Node(this.value, left, right.insert(value));
+            return this;
         }
     }
 
-    @Override
-    public String toString() {
-        return "(" + left + value + right + ")";
+    @Override public boolean contains(String data) {
+        if (data.compareTo(this.data) < 0) {
+            return left.contains(data);
+        } else if (data.compareTo(this.data) > 0) {
+            return right.contains(data);
+        } else {
+            return true;
+        }
+    }
+
+    @Override public String toString() {
+        return ("(" + left + data + right + ")").replace("()", "");
     }
 }
